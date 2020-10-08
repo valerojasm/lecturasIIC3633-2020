@@ -1,0 +1,13 @@
+# Comments on User Evaluation Framework of Recommender Systems
+Author: Valentina Rojas
+
+This paper discusses an evaluation framework for recommender systems composed by two main parts: the accuracy-effort measures and the user-trust model. The first one takes into account both objective and subjective ways to assess the named qualities of the algorithm - objectively, it observes how many users switch their chosen option after being given the opportunity and the second one measures how long they take in actually choosing, for example. On th other hand, the user-trust model is based in a post-study questionnaire designed to ask for users' subjective opinions after they finish their decision tasks.
+
+I think the main problem I have with this study is that there's absolutely no explanation as to how to apply this to recommender algorithms. They talk in at least the first third of the text how so many failed attempts to include psychological behavior of users to improve recommendations have been made, but even though they give , in my opinion, an extremely strong and interesting framework to measure and describe user preference, they give no lights as to how to use this information technically. It feels more of a study to guide UX-based techniques for e-commerce web design.
+
+In this sense, as an idea to this, I think something that could be easily implemented to a recommender algorithm would be the users' perceptions on system-design features. Questions about transparency, recommendation quality and user control are given, and I think the answers to these questions could be used in terms of the items that were recommended: an example of this would be, if a user says they didn't understand why those products were recommended to them or that these are not good, a bayesian or item kNN approach could be taken to analyze the features of these products that the client dislikes and therefore wouldn't like in future recommendations.
+
+On the other hand, I found a really interesting aspect that wasn't talked enough, it was only used as an introduction, and this would be the anchor effect: how people _anchor_ to the first thought that comes to mind when presented choices they know nothing about in a decision making process. In this sense, this principle could be used as a quality assurance tool for algorithms. Different approaches could be taken to recommend to these users and then a learning curve could be constructed from their input as they themselves learn of what they like or dislike from the items they were given.
+
+All in all, this framework is extremely well made especially in comparison to other studies they mention, where they fail to avoid the accuracy-effort tradeoff. 
+
